@@ -2,11 +2,6 @@ var assert = require('assert');
 
 var lib = require('./index.js');
 
-//------------------
-//  Additional tests
-//------------------
-
-
 assert.deepEqual(lib.query(undefined), undefined);
 assert.deepEqual(lib.query('1'), '1');
 assert.deepEqual(lib.query(1), 1);
