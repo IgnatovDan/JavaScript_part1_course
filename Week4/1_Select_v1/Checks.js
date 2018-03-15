@@ -1,3 +1,7 @@
+var assert = require('assert');
+
+var lib = require('./index.js');
+
 //------------------
 //  Additional tests
 //------------------
